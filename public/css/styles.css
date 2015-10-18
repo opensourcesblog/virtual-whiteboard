@@ -1,0 +1,28 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	background-color: #fff;
+	overflow:hidden;
+}
+
+body{
+	color:#444;
+}
+
+#board {
+    border: 1px solid #000;
+}
+
+#cursors{
+        position:relative;
+}
+
+#cursors .cursor{
+    position:absolute;
+    width:15px;
+    height:22px;
+    background:url('../img/pointer.png') no-repeat -4px 0;
+}
