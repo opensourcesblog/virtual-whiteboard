@@ -53,7 +53,7 @@ $(function(){
 	});
 
 
-    // set the current state to the server if the time difference from last emit is big enough
+    // send the current state to the server if the time difference from last emit is big enough
 	canvas.on('mousemove',function(e){
         var cPos = {x: e.pageX, y: e.pageY};
 		if($.now() - cLastEmit > 30){

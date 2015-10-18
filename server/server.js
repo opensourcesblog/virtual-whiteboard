@@ -7,7 +7,7 @@ var conf = require('./config.json');
 var debug_log = require('debug')('whiteboard:log');
 var debug_error = require('debug')('whiteboard:error');
 
-// Webserver listen on config port
+// Webserver listens on config port
 server.listen(conf.port);
 
 // set static folder
