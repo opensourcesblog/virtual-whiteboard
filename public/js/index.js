@@ -19,7 +19,7 @@ $(function(){
 	socket.on('moving', function (data) {
         // not current user and new? create a cursor
 		if(id !== data.id && !(data.id in clients)){
-			cursors[data.id] = $('<div class="cursor">').appendTo('#cursors');
+			cursors[data.id] = jQuery('.cursor').appendTo('#cursors');
 
             // Move the mouse pointer
             cursors[data.id].css({
